@@ -1,95 +1,51 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<meta charset="utf-8"/>
-		<title>AESimple</title>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="crypto-blobs : Teach, learn, disrupt, create, destroy, and enjoy.">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
+    <title>crypto-blobs</title>
+  </head>
 
-		<link href="assets/css/style.css" rel="stylesheet" />
-		<link href="assets/css/font-awesome.css" rel="stylesheet" />
-		<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
-	</head>
+  <body>
 
-	<body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/PoeticSubterfuge/crypto-blobs">View on GitHub</a>
 
-		<a class="back"></a>
+          <h1 id="project_title">crypto-blobs</h1>
+          <h2 id="project_tagline">Teach, learn, disrupt, create, destroy, and enjoy.</h2>
 
-		<div id="stage">
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/PoeticSubterfuge/crypto-blobs/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/PoeticSubterfuge/crypto-blobs/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-			<div id="step1">
-					<div id="github">
-					<a href="https://github.com/ajay340/AESimple">
-				<img src="assets/img/github-512.png" width="100px" height="100px"></a>
-				</div>
-				<div class="content">
-					<h1><b>AESimple</h1></b>
-					<a class="button encrypt blue">Encrypt a file</a>
-					<br>
-					<a class="button decrypt blue">Decrypt a file</a>
-				</div>
-			</div>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a id="crypto-blobs-for-poeticsubterfuge" class="anchor" href="#crypto-blobs-for-poeticsubterfuge" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>crypto-blobs for <a href="https://github.com/PoeticSubterfuge">PoeticSubterfuge</a>
+</h2>
+      </section>
+    </div>
 
-			<div id="step2">
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">crypto-blobs maintained by <a href="https://github.com/PoeticSubterfuge">PoeticSubterfuge</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
 
-				<div class="content if-encrypt">
-					<h1>Choose which file to encrypt</h1>
-					<h2>Any file can be inputed. Make sure the file is 50 megabites or less.</h2>
-					<a class="button browse blue">Pick a file</a>
+    
 
-					<input type="file" id="encrypt-input" />
-				</div>
-
-				<div class="content if-decrypt">
-					<h1>Choose which file to decrypt</h1>
-					<h2>Only files encrypted with this app will be able to be decrypted.</h2>
-					<a class="button browse blue">Pick a file</a>
-
-					<input type="file" id="decrypt-input" />
-				</div>
-
-			</div>
-
-			<div id="step3">
-
-				<div class="content if-encrypt">
-					<h1>Enter a <b>strong</b> password</h1>
-					<h2>This password will be used to decrypt the file later on, so its a good point to write it down somewhere!</h2>
-
-					<input type="password" />
-					<a class="button process blue">Encrypt</a>
-				</div>
-
-				<div class="content if-decrypt">
-					<h1>Enter the pass phrase</h1>
-					<h2>Enter the pass phrase that was used to encrypt this file. It is not possible to decrypt it without it.</h2>
-
-					<input type="password" />
-					<a class="button process blue">Decrypt!</a>
-				</div>
-
-			</div>
-
-			<div id="step4">
-
-				<div class="content">
-					<h1>Your file is ready!</h1>
-					<a class="button download blue">Download</a>
-				</div>
-
-			</div>
-		</div>
-
-
-
-	</body>
-
-	<!-- Include the AES algorithm of the crypto library -->
-	<script src="assets/js/aes.js"></script>
-
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/script.js"></script>
-
+  </body>
 </html>
